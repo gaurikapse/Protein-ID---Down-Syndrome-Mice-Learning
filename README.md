@@ -6,11 +6,23 @@ A 2015 paper by Clara Higuera et al aimed to find proteins relevant to learning 
 
 In my project I tried to replicate the findings of this study by using different methods including spectral clustering, fuzzy clustering and DBSCAN.
 
+\* The goal is not to determine if memantine helps rescue impaired learning. This has already been established. The authors of the original paper were rather looking for the mechanism by which memantine rescues learning (which proteins it acts on).
+
+## Files
 For a detailed summary of my methods and results, please refer to the file Kapse_Gauri_Project.pdf
 
+### Code
+- Data Pre-processing.ipynb: contains code for preprocessing data
+- Clustering and Dimensionality Reduction.ipynb: contains the main analysis and code
+
+### Data
+- Mouse_DS_Proteins.xls: raw data downloaded from the UCI archive
+- data.csv: processed data
+
+## References
 Original paper by Clara Higuera et al: DOI: 10.1371/journal.pone.0129126
 Access at: https://pubmed.ncbi.nlm.nih.gov/26111164/
 
 Data Source: https://archive.ics.uci.edu/dataset/342/mice+protein+expression
 
-*The goal is not to determine if memantine helps rescue impaired learning. This has already been established. The authors of the original paper were rather looking for the mechanism by which memantine rescues learning (which proteins it acts on).
+
