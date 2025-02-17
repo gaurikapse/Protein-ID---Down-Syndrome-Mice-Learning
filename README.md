@@ -2,7 +2,7 @@
 An attempt at replicating the 2015 paper “Self-Organizing Feature Maps Identify Proteins Critical to Learning in a Mouse Model of Down Syndrome,” using a combination of non-linear dimensionality reduction and spectral clustering. The authors of the original paper have used self-organizing feature maps (SOM).
 
 ## Description
-A 2015 paper by Clara Higuera et al aimed to find proteins relevant to learning disabilities induced by Down Syndrome in mice using Self Organizing Maps (SOM). A secondary goal included studying the effects of memantine (a drug for ) on said proteins in mice.*
+A 2015 paper by Clara Higuera et al aimed to find proteins relevant to learning disabilities induced by Down Syndrome in mice using Self Organizing Maps (SOM). A secondary goal included studying the effects of memantine (a drug for dementia) on said proteins in mice.*
 
 In my project I tried to replicate the findings of this study by using different methods including spectral clustering, fuzzy clustering and DBSCAN.
 
